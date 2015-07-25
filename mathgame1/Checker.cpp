@@ -7,10 +7,10 @@
 //
 
 #include "Checker.h"
-#include "QuestionAnswer.h"
+#include "QuestionGenerator.h"
 #include <iostream>
 
-bool Checker(struct QuestionAnswer QA){
+bool Checker(QuestionAnswer QA){
     bool TorF = true;
     double UserAnswer;
     std::cin >> UserAnswer;
