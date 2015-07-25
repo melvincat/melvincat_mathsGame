@@ -18,7 +18,6 @@ bool Checker(struct QuestionAnswer QA){
     {
         std::cout << "Wrong" << std::endl;
         TorF = false;
-        std::cout << TorF << std::endl;
     }
     else {
         std::cout << "Correct!" <<std::endl;
