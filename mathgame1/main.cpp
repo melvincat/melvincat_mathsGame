@@ -9,7 +9,6 @@
 #include <iostream>
 #include "StartUp.h"
 #include "RandomNumber.h"
-#include "QuestionAnswer.h"
 #include "QuestionGenerator.h"
 #include "checker.h"
 
