@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D12EB2481B62F2CE00A6932F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D12EB2471B62F2CE00A6932F /* main.cpp */; };
+		D12EB2511B630BC600A6932F /* StartUp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D12EB24F1B630BC600A6932F /* StartUp.cpp */; };
+		D12EB2541B63103400A6932F /* QuestionGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D12EB2521B63103400A6932F /* QuestionGenerator.cpp */; };
+		D12EB25A1B63175F00A6932F /* RandomNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D12EB2581B63175F00A6932F /* RandomNumber.cpp */; };
+		D12EB25D1B632A1800A6932F /* Checker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D12EB25B1B632A1800A6932F /* Checker.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,16 @@
 /* Begin PBXFileReference section */
 		D12EB2441B62F2CE00A6932F /* mathgame1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mathgame1; sourceTree = BUILT_PRODUCTS_DIR; };
 		D12EB2471B62F2CE00A6932F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D12EB24E1B63097600A6932F /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		D12EB24F1B630BC600A6932F /* StartUp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StartUp.cpp; sourceTree = "<group>"; };
+		D12EB2501B630BC600A6932F /* StartUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartUp.h; sourceTree = "<group>"; };
+		D12EB2521B63103400A6932F /* QuestionGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuestionGenerator.cpp; sourceTree = "<group>"; };
+		D12EB2531B63103400A6932F /* QuestionGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionGenerator.h; sourceTree = "<group>"; };
+		D12EB2561B63106700A6932F /* QuestionAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionAnswer.h; sourceTree = "<group>"; };
+		D12EB2581B63175F00A6932F /* RandomNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RandomNumber.cpp; sourceTree = "<group>"; };
+		D12EB2591B63175F00A6932F /* RandomNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomNumber.h; sourceTree = "<group>"; };
+		D12EB25B1B632A1800A6932F /* Checker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Checker.cpp; sourceTree = "<group>"; };
+		D12EB25C1B632A1800A6932F /* Checker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Checker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,16 @@
 			isa = PBXGroup;
 			children = (
 				D12EB2471B62F2CE00A6932F /* main.cpp */,
+				D12EB24E1B63097600A6932F /* README */,
+				D12EB24F1B630BC600A6932F /* StartUp.cpp */,
+				D12EB2501B630BC600A6932F /* StartUp.h */,
+				D12EB2521B63103400A6932F /* QuestionGenerator.cpp */,
+				D12EB2531B63103400A6932F /* QuestionGenerator.h */,
+				D12EB2561B63106700A6932F /* QuestionAnswer.h */,
+				D12EB2581B63175F00A6932F /* RandomNumber.cpp */,
+				D12EB2591B63175F00A6932F /* RandomNumber.h */,
+				D12EB25B1B632A1800A6932F /* Checker.cpp */,
+				D12EB25C1B632A1800A6932F /* Checker.h */,
 			);
 			path = mathgame1;
 			sourceTree = "<group>";
@@ -118,7 +142,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D12EB25D1B632A1800A6932F /* Checker.cpp in Sources */,
 				D12EB2481B62F2CE00A6932F /* main.cpp in Sources */,
+				D12EB2511B630BC600A6932F /* StartUp.cpp in Sources */,
+				D12EB2541B63103400A6932F /* QuestionGenerator.cpp in Sources */,
+				D12EB25A1B63175F00A6932F /* RandomNumber.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +233,7 @@
 		D12EB24C1B62F2CE00A6932F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +241,7 @@
 		D12EB24D1B62F2CE00A6932F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
