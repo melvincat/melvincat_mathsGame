@@ -21,7 +21,8 @@ struct QuestionAnswer QuestionGenerator(){
     double num3 = RandomNumber(min, max);
     int num2INT = num2;
     int num3INT = num3;
-    
+    //std::cout << num2 << "\t" << num3 << std::endl;
+
     //for easy typing
     using std::to_string;
     //create switch statement that changes to different question
