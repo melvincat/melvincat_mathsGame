@@ -7,13 +7,14 @@
 //
 
 #include "RandomNumber.h"
-#include <cstdlib> // for rand() and srand()
-#include <ctime> // for time()
+#include <random>// for time()
 double RandomNumber(int min, int max){
     double Rnumber;
-    srand(static_cast<unsigned int>(time(0)));
+    std::random_device rd; // obtain a random number from hardware
+    std::mt19937 eng(rd()); // seed the generator
+    std::uniform_int_distribution<> distr(min, max); // define the range
     
-    Rnumber= min + (rand() % (int)(max - min + 1));
+    Rnumber= distr(eng);
     
     return Rnumber;
 }
