@@ -7,7 +7,6 @@
 //
 
 #include "QuestionGenerator.h"
-#include "QuestionAnswer.h"
 #include "RandomNumber.h"
 #include <iostream>
 
