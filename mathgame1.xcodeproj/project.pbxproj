@@ -34,7 +34,6 @@
 		D12EB2501B630BC600A6932F /* StartUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartUp.h; sourceTree = "<group>"; };
 		D12EB2521B63103400A6932F /* QuestionGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuestionGenerator.cpp; sourceTree = "<group>"; };
 		D12EB2531B63103400A6932F /* QuestionGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionGenerator.h; sourceTree = "<group>"; };
-		D12EB2561B63106700A6932F /* QuestionAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionAnswer.h; sourceTree = "<group>"; };
 		D12EB2581B63175F00A6932F /* RandomNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RandomNumber.cpp; sourceTree = "<group>"; };
 		D12EB2591B63175F00A6932F /* RandomNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomNumber.h; sourceTree = "<group>"; };
 		D12EB25B1B632A1800A6932F /* Checker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Checker.cpp; sourceTree = "<group>"; };
@@ -77,7 +76,6 @@
 				D12EB2501B630BC600A6932F /* StartUp.h */,
 				D12EB2521B63103400A6932F /* QuestionGenerator.cpp */,
 				D12EB2531B63103400A6932F /* QuestionGenerator.h */,
-				D12EB2561B63106700A6932F /* QuestionAnswer.h */,
 				D12EB2581B63175F00A6932F /* RandomNumber.cpp */,
 				D12EB2591B63175F00A6932F /* RandomNumber.h */,
 				D12EB25B1B632A1800A6932F /* Checker.cpp */,
