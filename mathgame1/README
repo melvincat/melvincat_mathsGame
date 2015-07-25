@@ -1,0 +1,20 @@
+This is a readme file. This file will be used to plan out the MathGame and provide a guide to the classes.
+Note. I use class but there will not be any "class" objects such as defined in C++. Classes will refer to different files
+that use functions.
+CLASSES:
+
+    Startup
+        ~Displays Welcome Message
+        ~Gets Username and stores this in a function in the class for use in other files
+
+    QuestionGenerator
+        ~Creates questions using RandomNumber class for random numbers
+        ~Stores these in QuestionAnswer class
+    QuestionAnswer
+        ~Creates a struct object that stores the question and the answer.
+        ~Allows the passing of two different data values to different classes
+    Question
+        ~Prints the question, returns the answer stored in userAnswer
+    Checker
+        ~Gets Question, Answer, userAnswer
+        ~Return boolean true or false
