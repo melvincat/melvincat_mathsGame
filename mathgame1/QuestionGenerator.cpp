@@ -40,7 +40,7 @@ QuestionAnswer QuestionGenerator(){
             break;
         case 4:
             QA.question = to_string(num2) + " / " + to_string(num3);
-            QA.answer = num2/num3;
+            QA.answer = static_cast<double>(num2)/static_cast<double>(num3);
             break;
             
     }
