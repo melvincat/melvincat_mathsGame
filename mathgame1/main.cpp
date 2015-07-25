@@ -7,9 +7,18 @@
 //
 
 #include <iostream>
+#include "StartUp.h"
+#include "RandomNumber.h"
+#include "QuestionAnswer.h"
+#include "QuestionGenerator.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    //StartUp();
+    
+    for (int i = 0; i <= 10;i++){
+    struct QuestionAnswer QA;
+    QA = QuestionGenerator();
+    std::cout << QA.question << "\t" << QA.answer << std::endl;
+    }
     return 0;
 }
