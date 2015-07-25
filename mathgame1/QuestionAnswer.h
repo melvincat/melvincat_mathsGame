@@ -12,6 +12,5 @@
 struct QuestionAnswer{
     std::string question;
     double answer;
-    double UserAnswer;
 };
 #endif /* defined(__mathgame1__QuestionAnswer__) */
