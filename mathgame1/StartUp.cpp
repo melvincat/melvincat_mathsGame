@@ -8,20 +8,12 @@
 
 #include "StartUp.h"
 #include <iostream>
-std::string userName;
-void setUserName(std::string x)
-{
-    ::userName = x;
-}
-std::string getUserName()
-{
-    return ::userName;
-}
-void StartUp()
+
+std::string StartUp()
 {
     std::cout << "Welcome to the maths game!" <<std::endl;
     std::cout << "Enter your UserName:" << std::endl;
     std::string name;
     std::getline(std::cin, name);
-    setUserName(name);
+    return name;
 }
