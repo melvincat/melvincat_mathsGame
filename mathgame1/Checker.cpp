@@ -12,8 +12,9 @@
 
 bool Checker(struct QuestionAnswer QA){
     bool TorF = true;
-    std::cin >> QA.UserAnswer;
-    if (QA.UserAnswer != QA.answer)
+    double UserAnswer;
+    std::cin >> UserAnswer;
+    if (UserAnswer != QA.answer)
     {
         std::cout << "Wrong" << std::endl;
         TorF = false;
