@@ -7,7 +7,7 @@
 //
 
 #include "RandomNumber.h"
-#include <random>// for time()
+#include <random>
 int RandomNumber(int min, int max){
     std::random_device rd;
     std::uniform_int_distribution<> distr(min, max);
