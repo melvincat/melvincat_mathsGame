@@ -12,3 +12,11 @@
 #include <stdio.h>
 struct QuestionAnswer QuestionGenerator();
 #endif /* defined(__mathgame1__QuestionGenerator__) */
+#ifndef __mathgame1__QuestionAnswer__
+#define __mathgame1__QuestionAnswer__
+#include <iostream>
+struct QuestionAnswer{
+    std::string question;
+    double answer;
+};
+#endif

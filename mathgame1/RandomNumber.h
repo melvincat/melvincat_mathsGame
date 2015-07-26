@@ -9,7 +9,6 @@
 #ifndef __mathgame1__RandomNumber__
 #define __mathgame1__RandomNumber__
 
-#include <stdio.h>
-double RandomNumber(int min, int max);
+int RandomNumber(int min, int max);
 
 #endif /* defined(__mathgame1__RandomNumber__) */

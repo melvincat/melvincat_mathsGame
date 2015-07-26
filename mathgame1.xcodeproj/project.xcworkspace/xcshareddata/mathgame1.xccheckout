@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0B6E8227-0E7A-4691-92D3-03C238396CB6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>mathgame1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DCF1B99E1E43610E6A7D8D37189CE5DF002DC033</key>
+		<string>https://github.com/melvincat/melvincat_mathsGame.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>mathgame1.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DCF1B99E1E43610E6A7D8D37189CE5DF002DC033</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/melvincat/melvincat_mathsGame.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DCF1B99E1E43610E6A7D8D37189CE5DF002DC033</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DCF1B99E1E43610E6A7D8D37189CE5DF002DC033</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mathgame1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
