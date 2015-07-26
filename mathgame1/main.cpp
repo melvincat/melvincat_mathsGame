@@ -14,15 +14,38 @@
 
 int main() {
     std::string UserName = StartUp();
+    //count tracks how many quesitons user got right
     int count(0);
-    for (int i = 0; i < 10; i++){
-    struct QuestionAnswer QA1;
-    QA1 = QuestionGenerator();
-    std::cout << QA1.question << std::endl;
-        if (Checker(QA1) == true){
-            ++count;
+    //boolean for checking if user wants app to restart
+    bool run = true;
+    while (run)
+    {
+        //for loop generates ten quesitons
+        for (int i = 0; i < 10; i++)
+        {
+            QuestionAnswer QA1;
+            QA1 = QuestionGenerator();
+            std::cout << QA1.question << std::endl;
+            //if user got answer right add one to counter
+            if (Checker(QA1)){
+                ++count;
+            }
+        }
+        std::cout << UserName << " got " << count << " out of 10 right!" << "\n";
+        
+        //checks if user wants to replay the game
+        std::cout << "Run again? (Press Y for yes, N for no)"<<"\n";
+        char runagain = 0;
+        std::cin >> runagain;
+        if (runagain == 'Y'||runagain == 'y')
+        {
+            run =true;
+        }
+        else {
+            run = false;
         }
     }
-    std::cout << UserName << " got " << count << " out of 10 right!" << std::endl;
+    //close app and flush the stream
+    std::cout << "Thankyou for playing" << std::endl;
     return 0;
 }
